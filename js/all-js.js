@@ -147,8 +147,9 @@ function doubleOrTripleIt(IDnum) {
     const inputBox2 = document.getElementById('input-2');
     const input1Value = inputBox1.value;
 
+    // error message
     // input value jeno 'number' hoy & inputvalue jeno '0' na hoy
-    // input1Value == 0 er bodole input1Value == '' [etao use kora jabe]
+    // (input1Value == 0) er bodole (input1Value == '') [etao use kora jabe]
 
     if (isNaN(input1Value) || input1Value == 0) {
         alert('Please enter a number');
