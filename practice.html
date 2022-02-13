@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Button Game</title>
+
+    <!-- Internal CSS -->
+    <style>
+        #container {
+            margin: auto;
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 500px;
+            background-color: rgba(145, 145, 235, 0.267);
+            border-radius: 10px;
+        }
+
+        #box {
+            width: 350px;
+        }
+
+        .input-box {
+            display: block;
+            width: 300px;
+            margin: auto;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+            border-color: gray;
+            border-radius: 10px;
+        }
+
+        #button-box {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .btn {
+            width: 100px;
+            padding: 8px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            border: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="box">
+            <input id="input-1" class="input-box" type="text" placeholder="put your number">
+            <input id="input-2" class="input-box" type="text" placeholder="put your number">
+            <div id="button-box">
+                <button id="btn-1" class="btn">Double</button>
+                <button id="btn-2" class="btn">Triple</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- External javaScript -->
+    <script src="js/practice.js"></script>
+</body>
+
+</html>
